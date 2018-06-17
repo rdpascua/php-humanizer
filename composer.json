@@ -1,5 +1,5 @@
 {
-    "name": "coduo/php-humanizer",
+    "name": "rdpascua/php-humanizer",
     "type": "library",
     "description": "Humanize values that are readable only for developers",
     "keywords": ["php", "humanize", "humanizer"],
@@ -15,15 +15,15 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0",
-        "symfony/config": "^2.3|^3.0",
-        "symfony/translation": "^2.3|^3.0",
-        "symfony/yaml": "^2.3|^3.0"
+        "php": "^7.1.3",
+        "symfony/config": "^4.1",
+        "symfony/translation": "^4.1",
+        "symfony/yaml": "^4.1"
     },
     "require-dev": {
         "thunderer/shortcode": "~0.5",
-        "phpspec/phpspec": "^2",
-        "phpunit/phpunit": "^4.5|^5.0"
+        "phpspec/phpspec": "^4.3",
+        "phpunit/phpunit": "^7.0"
     },
     "config": {
         "bin-dir": "bin"
